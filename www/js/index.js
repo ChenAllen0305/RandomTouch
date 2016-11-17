@@ -2,8 +2,8 @@
 
 $(document).on("pagecreate","#pageone",function(){
   
-  	$('#taprandom').on("taprandom",function random(){
-    	return !Math.round(Math.random());
+  	$('#taprandom').on("tap",function random(){
+    	alert (return !Math.round(Math.random()));
  	});                       
 
 	
